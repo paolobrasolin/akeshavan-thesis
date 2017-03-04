@@ -1,0 +1,127 @@
+\documentclass{uscf}
+\addbibresource{sample.bib}
+
+\usepackage{blindtext}
+
+\begin{document}
+%==[ FRONT MATTER ]=============================================================
+\frontmatter
+
+% Title
+\thispagestyle{empty}
+\begin{centering}
+  Place Title Here\\
+  by\\Your Name\\
+  THESIS\\Submitted in partial satisfaction of the requirements
+  for the degree of\\MASTER OF SCIENCE\\
+  in\\Bioengineering\\
+  in the\\GRADUATE DIVISION\\
+  of the\\UNIVERSITY OF CALIFORNIA, SAN FRANCISCO\\
+          AND\\UNIVERSITY OF CALIFORNIA, BERKELEY\\
+  \vspace{1in}
+  \begin{minipage}{0.7\linewidth}
+    \hspace{-2em}Approved:\\
+    \null\hfill Chair\\[-.5em]
+    \null\dotfill\\
+    \null\dotfill\\
+    \null\dotfill\\
+    \null\dotfill\\[1em]
+    \null\dotfill\\
+    \null\hfill Committee in Charge\\
+  \end{minipage}\\
+\end{centering}
+
+% Copyright
+\clearpage
+\vspace*{2in}
+\begin{centering}
+  Copyright 2016\\by\\Albert Einstein\\
+\end{centering}
+
+% Dedication
+\clearpage
+\vspace*{1in}
+\hfill
+\begin{minipage}{.5\linewidth}
+  Thanks to mom, dad, et alia.
+\end{minipage}
+
+% Abstract
+\clearpage
+\begin{centering}
+  \textbf{Title of Thesis}\\
+  Your Name\\
+\end{centering}
+\bigskip
+\blindtext
+
+% Indices
+\tableofcontents
+\listoftables
+\listoffigures
+
+%==[ MAIN MATTER ]==============================================================
+\mainmatter
+
+\Blinddocument
+
+\blindtext
+
+Here is a citation\cite{einstein}.
+And another one\cite{dirac}.
+
+\blindtext
+
+\begin{figure}\centering
+  \includegraphics[scale=.4]{example-image}
+  \caption{This is the image caption.}
+\end{figure}
+
+\blindtext
+
+\begin{table}\centering
+  \begin{tabular}{lll}\toprule
+    a & b & c \\\midrule
+    x & y & z \\
+    x & y & z \\
+    x & y & z \\\bottomrule
+  \end{tabular}
+  \caption{This is the table caption.}
+\end{table}
+
+%==[ BACK MATTER ]==============================================================
+
+\printbibliography[heading=bibintoc]
+
+\appendix
+
+\chapter{One appendix}
+
+\blindtext
+
+\chapter{Two appendices}
+
+\blindtext
+
+%==[ AGREEMENT ]================================================================
+\clearpage
+
+\textbf{Publishing Agreement}
+
+It is the policy of the University to encourage the distribution of
+all theses, dissertations, and manuscripts. Copies of all UCSF theses,
+dissertations, and manuscripts will be routed to the library via the
+Graduate Division. The library will make all theses, dissertations,
+and manuscripts accessible to the public and will preserve these to the
+best of their abilities, in perpetuity.
+
+I hereby grant permission to the Graduate Division of the University of
+California, San Francisco to release copies of my thesis, dissertation,
+or manuscript to the Campus Library to provide access and preservation,
+in whole or in part, in perpetuity.
+
+\bigskip
+
+Author Signature \dotfill\ Date \dotfill\\
+
+\end{document}
