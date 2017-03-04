@@ -15,4 +15,4 @@ cd $external_dir
 
 # Move the output and clean up.
 cp "$1/authorea_build/authorea_paper.tex" "$article_name.tex"
-rm -rf authorea_build
+rm -rf "$1/authorea_build/"
