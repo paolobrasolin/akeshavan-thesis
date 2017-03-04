@@ -4,3 +4,6 @@
 [submodule "external/Power-Estimation-for-Non-Standardized-Multisite-Studies"]
 	path = external/Power-Estimation-for-Non-Standardized-Multisite-Studies
 	url = https://github.com/akeshavan/Power-Estimation-for-Non-Standardized-Multisite-Studies.git
+[submodule "external/authorea-scripts"]
+	path = external/authorea-scripts
+	url = https://github.com/eteq/authorea-scripts.git
