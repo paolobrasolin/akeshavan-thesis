@@ -78,8 +78,11 @@
 % \AtEndDocument{}
 
 % Bibliography configuration.
-\usepackage[
+\RequirePackage[
 ]{biblatex}
+
+% Usefol for re-including the signed and scanned pages.
+\RequirePackage{pdfpages}
 
 % Increase typographical beauty.
 \RequirePackage{microtype}
