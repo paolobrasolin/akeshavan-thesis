@@ -1,0 +1,6 @@
+[submodule "external/Mindcontrol-A-Web-Application-for-Brain-Segmentation-Quality-Control"]
+	path = external/Mindcontrol-A-Web-Application-for-Brain-Segmentation-Quality-Control
+	url = https://github.com/akeshavan/Mindcontrol-A-Web-Application-for-Brain-Segmentation-Quality-Control
+[submodule "external/Power-Estimation-for-Non-Standardized-Multisite-Studies"]
+	path = external/Power-Estimation-for-Non-Standardized-Multisite-Studies
+	url = https://github.com/akeshavan/Power-Estimation-for-Non-Standardized-Multisite-Studies.git
