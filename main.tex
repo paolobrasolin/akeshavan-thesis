@@ -3,6 +3,8 @@
 
 \usepackage{blindtext}
 
+\usepackage{pdfpages}
+
 \begin{document}
 %==[ FRONT MATTER ]=============================================================
 \frontmatter
@@ -90,6 +92,11 @@ And another one\cite{dirac}.
   \end{tabular}
   \caption[This is the index table title.]{This is the inline table caption.}
 \end{table}
+
+% --[ PAPER INCLUSION ]----------------------------------------------------------
+
+\includepdf[pages=1-10, angle=0, pagecommand={}]{external/test-pdf/main.pdf}
+
 
 %==[ BACK MATTER ]==============================================================
 

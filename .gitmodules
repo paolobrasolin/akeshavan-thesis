@@ -7,3 +7,6 @@
 [submodule "external/authorea-scripts"]
 	path = external/authorea-scripts
 	url = https://github.com/eteq/authorea-scripts.git
+[submodule "external/Introduction"]
+	path = external/Introduction
+	url = https://github.com/akeshavan/Introduction.git
