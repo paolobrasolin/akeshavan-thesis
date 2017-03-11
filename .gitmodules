@@ -10,3 +10,12 @@
 [submodule "external/Introduction"]
 	path = external/Introduction
 	url = https://github.com/akeshavan/Introduction.git
+[submodule "external/PBRain-A-Framework-for-the-Curation-and-Execution-of-Neuroimaging-Analyses"]
+	path = external/PBRain-A-Framework-for-the-Curation-and-Execution-of-Neuroimaging-Analyses
+	url = https://github.com/akeshavan/PBRain-A-Framework-for-the-Curation-and-Execution-of-Neuroimaging-Analyses.git
+[submodule "external/MindGames-A-Crowd-Sourcing-Game-Platform-for-Brain-MRI-Segmentation"]
+	path = external/MindGames-A-Crowd-Sourcing-Game-Platform-for-Brain-MRI-Segmentation
+	url = https://github.com/akeshavan/MindGames-A-Crowd-Sourcing-Game-Platform-for-Brain-MRI-Segmentation.git
+[submodule "external/The-Multiple-Sclerosis-Imaging-BioScreen-A-Precision-Medicine-Visualization-Tool"]
+	path = external/The-Multiple-Sclerosis-Imaging-BioScreen-A-Precision-Medicine-Visualization-Tool
+	url = https://github.com/akeshavan/The-Multiple-Sclerosis-Imaging-BioScreen-A-Precision-Medicine-Visualization-Tool.git
